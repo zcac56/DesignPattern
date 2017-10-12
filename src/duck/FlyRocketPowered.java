@@ -1,4 +1,4 @@
-package Duck;
+package duck;
 
 public class FlyRocketPowered implements FlyBehavior {
 	public void fly() {
