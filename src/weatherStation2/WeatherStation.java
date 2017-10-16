@@ -10,7 +10,7 @@ public class WeatherStation {
 		WeatherData weatherData = new WeatherData();
 		
 		CurrentConditionsDisplay currentDisplay = new CurrentConditionsDisplay(weatherData);
-		//StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
+		StatisticsDisplay statisticsDisplay = new StatisticsDisplay(weatherData);
 		ForecastDisplay forcastDisplay = new ForecastDisplay(weatherData);
 		
 		weatherData.SetMeasurements(80, 65, 30.4F);
