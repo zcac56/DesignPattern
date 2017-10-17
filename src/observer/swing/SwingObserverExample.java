@@ -1,4 +1,4 @@
-package swingExample;
+package observer.swing;
 
 import java.awt.BorderLayout;
 

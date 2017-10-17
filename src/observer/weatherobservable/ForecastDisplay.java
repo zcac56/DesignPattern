@@ -1,9 +1,9 @@
-package weatherStation2;
+package observer.weatherobservable;
 
 import java.util.Observable;
 import java.util.Observer;
 
-import weatherStation.DisplayElement;
+import observer.weather.DisplayElement;
 
 public class ForecastDisplay implements Observer, DisplayElement {
 	private float currentPressure = 29.2f;

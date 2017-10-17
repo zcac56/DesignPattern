@@ -1,9 +1,4 @@
-package weatherStation2;
-
-import weatherStation.CurrentConditionsDisplay;
-import weatherStation.ForecastDisplay;
-import weatherStation.StatisticsDisplay;
-import weatherStation.WeatherData;
+package observer.weather;
 
 public class WeatherStation {
 	public static void main(String[] args) {
