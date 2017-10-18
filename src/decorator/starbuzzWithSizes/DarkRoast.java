@@ -1,4 +1,4 @@
-package decorator.starbuzz;
+package decorator.starbuzzWithSizes;
 
 public class DarkRoast extends Beverage {
 	public DarkRoast() {
@@ -8,4 +8,5 @@ public class DarkRoast extends Beverage {
 	public double cost() {
 		return 0.99;
 	}
+
 }
